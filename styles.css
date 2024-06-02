@@ -1,22 +1,30 @@
 :root {
-	--neutral: #232946;
+	--neutral: #081b29;
 	--base-100: #fffffe;
 	--neutral-foucs: #121629;
+	--neutral-center: rgb(92, 169, 241); 
 }
  * {
 	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+ }
+
+ body {
+	background-color: var(--neutral);
+	padding-top: 50px;
  }
 
 #navbar {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	background-color: var(--neutral);
-	padding: 20px 0;
+	padding: 23px 30px ;
 	font-size: 20px;
-	border-bottom: 1px soild var(--neutral-foucs);
 }
 
 .nav-links {
@@ -33,4 +41,74 @@
 
 .nav-links a:hover {
 	text-decoration: underline;
+}
+
+.nav-links a:active {
+	color: var(--neutral-center);
+}
+
+section {
+	min-height: 100vh;
+	padding: 70px 0;
+	background: url(https://img.freepik.com/free-photo/natures-beauty-captured-colorful-flower-close-up-generative-ai_188544-8593.jpg?size=626&ext=jpg&ga=GA1.1.1518270500.1717340400&semt=sph);
+	background-position: right;
+	background-repeat: no-repeat;
+	/*background-size: cover;*/
+}
+
+#welcome-section {
+	background-color: var(--neutral);
+	color: var(--base-100);
+	padding-left: 40px;
+}
+
+.note {
+	color: var(--neutral-center);
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 7px;
+}
+
+.info {
+	font-size: 12px;
+	padding-top: 15px;
+	padding-right: 10px;
+	width: 45%;
+	padding-bottom: 20px;
+	
+}
+
+button {
+	border-radius: 5px;
+	font-weight: bold;
+}
+ 
+.lets-talk {
+  color: var(--neutral-center);
+	background-color: var(--neutral);
+	border-color: var(--neutral-center);
+	padding: 4px 20px ;
+}
+.lets-talk:hover {
+	opacity: 0.5;
+	background-color: var(--neutral-center);
+	color: var(--neutral);
+}
+
+.hire-me {
+	color: var(--neutral);
+	background-color: var(--neutral-center);
+	border: none;
+	padding: 5px 25px;
+	margin: 5px;
+}
+
+.hire-me:hover {
+	opacity: 0.5;
+	color: var(--neutral-center);
+	background-color: var(--neutral);
+	border: 1px solid var(--neutral-center);
+}
+@media screen {
+	
 }
