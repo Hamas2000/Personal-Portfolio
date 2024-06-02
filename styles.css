@@ -50,10 +50,6 @@
 section {
 	min-height: 100vh;
 	padding: 70px 0;
-	background: url(https://img.freepik.com/free-photo/natures-beauty-captured-colorful-flower-close-up-generative-ai_188544-8593.jpg?size=626&ext=jpg&ga=GA1.1.1518270500.1717340400&semt=sph);
-	background-position: right;
-	background-repeat: no-repeat;
-	/*background-size: cover;*/
 }
 
 #welcome-section {
@@ -65,12 +61,12 @@ section {
 .note {
 	color: var(--neutral-center);
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 19px;
 	padding-top: 7px;
 }
 
 .info {
-	font-size: 12px;
+	font-size: 18px;
 	padding-top: 15px;
 	padding-right: 10px;
 	width: 45%;
@@ -109,6 +105,23 @@ button {
 	background-color: var(--neutral);
 	border: 1px solid var(--neutral-center);
 }
-@media screen {
-	
+
+#about {
+	color: var(--base-100);
+	overflow: hidden;
 }
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	margin: 65px auto;
+}
+
+.her-content {}
+
+img {
+	height: 400px;
+}
+
