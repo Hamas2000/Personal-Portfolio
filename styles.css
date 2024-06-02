@@ -24,7 +24,7 @@
 	top: 0;
 	width: 100%;
 	background-color: var(--neutral);
-	padding: 23px 30px ;
+	padding: 13px 30px ;
 	font-size: 20px;
 }
 
@@ -58,10 +58,15 @@ section {
 	background-color: var(--neutral);
 	color: var(--base-100);
 	padding-left: 40px;
+	padding-top: 100px;
+	background-image: url(https://static.vecteezy.com/system/resources/thumbnails/036/366/612/small_2x/ai-generated-dreamy-natural-background-beautiful-bokeh-copy-space-photo.jpg);
+  background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .note {
-	color: var(--neutral-center);
+	color: var(--neutral);
 	font-weight: bold;
 	font-size: 19px;
 	padding-top: 7px;
@@ -131,28 +136,32 @@ button {
   width: 500px;
 	margin: auto;
 }
- img {
+
+img {
 	width: 100%;
 	height: auto;
 	border-radius: 10px;
- }
+}
  
- .her-content h2{
+.her-content h2{
 	color: var(--neutral-center);
 	font-size: 28px;
 	padding-bottom: 10px;
- }
+}
 
- .her-content p{
+.her-content p{
 	font-size: 24px;
 	line-height: 1.5;
 	margin-bottom: 40px;
- }
+}
 
- .her-content button{
-   padding: 4px 20px;
-	 color: var(--base-100);
-	 background-color: var(--nature-green);
-	 box-shadow: 5px 5px 10px hsl(0, 69%, 46%);
- }
+.her-content button{
+  padding: 4px 20px;
+	color: var(--base-100);
+	background-color: var(--nature-green);
+}
 
+.her-content button:hover {
+	box-shadow: 5px 5px 10px hsl(0, 69%, 46%);
+	opacity: 0.7;
+}
