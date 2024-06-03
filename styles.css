@@ -1,6 +1,6 @@
 :root {
-	--neutral: #081b29;
-	--base-100: #fffffe;
+  --neutral: #081b29;
+  --base-100: #fffffe;
 	--neutral-foucs: #121629;
 	--neutral-center: rgb(92, 169, 241); 
 	--nature-green: rgb(131, 192, 11);
@@ -132,8 +132,8 @@ button {
 	margin: 0 25px;
 }
 
-.her-image{
-	flex: 1;
+.her-image {
+	  flex: 1;
   width: 500px;
 	margin: auto;
 }
@@ -201,8 +201,7 @@ img {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: var(--neutral);
-	color: var(--base-100);
+ 	color: var(--base-100);
 	border: 5px;
 	box-shadow: 8px 8px 10px rgb(57, 25, 25);
 }
