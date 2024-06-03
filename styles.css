@@ -1,9 +1,9 @@
 :root {
   --neutral: #081b29;
   --base-100: #fffffe;
-	--neutral-foucs: #121629;
-	--neutral-center: rgb(92, 169, 241); 
-	--nature-green: rgb(131, 192, 11);
+  --neutral-foucs: #121629;
+  --neutral-center: rgb(92, 169, 241); 
+  --nature-green: rgb(131, 192, 11);
 }
 
 * {
