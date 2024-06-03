@@ -90,8 +90,9 @@ button {
   color: var(--neutral-center);
 	background-color: var(--neutral);
 	border-color: var(--neutral-center);
-	padding: 4px 20px ;
+	padding: 4px 20px;
 }
+
 .lets-talk:hover {
 	opacity: 0.5;
 	background-color: var(--neutral-center);
@@ -144,19 +145,19 @@ img {
 	border-radius: 10px;
 }
 
-.her-content h2{
+.her-content h2 {
 	color: var(--neutral-center);
 	font-size: 28px;
 	padding-bottom: 10px;
 }
 
-.her-content p{
+.her-content p {
 	font-size: 24px;
 	line-height: 1.5;
 	margin-bottom: 40px;
 }
 
-.her-content button{
+.her-content button {
   padding: 4px 20px;
 	color: var(--base-100);
 	background-color: var(--nature-green);
