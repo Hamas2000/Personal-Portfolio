@@ -26,7 +26,7 @@ body {
   top: 0;
   width: 100%;
   background-color: var(--neutral);
-  padding: 13px 30px ;
+  padding: 13px 30px;
   font-size: 20px;
 }
 
@@ -248,7 +248,7 @@ img {
   transition: transform 0.2s ease-in;
   display: flex;
   align-items: center;
-  margin: 30PX;
+  margin: 30px;
   font-size: 22px;
 }
 
