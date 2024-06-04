@@ -11,6 +11,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'poppins', sans-serif;
+  scroll-behavior: smooth;
  }
 
 body {
@@ -196,7 +197,7 @@ img {
 	border-radius: 5px;
 }
 
-.project .project-title {
+.project .project-tile {
   width: 100%;
   height: fit-content;
   display: flex;
@@ -209,8 +210,68 @@ img {
   box-shadow: 8px 8px 10px rgb(57, 25, 25);
 }
 
-#project .project-title img {
+#project .project-tile img {
   height: 100%;
   width: 100;
   object-fit: cover;
+}
+
+#contact {
+  background-color: var(--neutral);
+  color: var(--base-100);
+  text-align: center;
+}
+
+#contact h1 {
+  font-size: 50px;
+  margin-top: 200px;
+}
+
+#contact .question {
+  color: var(--neutral-center);
+  font-size: 24px;
+  font-style: italic;
+}
+
+#contact .social-medias {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#contact .social-media {
+  text-decoration: none;
+  color: var(--base-100);
+  transition: transform 0.2s ease-in;
+  display: flex;
+  align-items: center;
+  margin: 30PX;
+  font-size: 22px;
+}
+
+#contact .social-media:hover {
+  transform: translateY(10px);
+}
+
+footer {
+  border-top: 3px solid var(--neutral-center);
+  color: var(--base-100);
+  font-size: 25px;
+  padding: 30px;
+  text-align: center;
+  font-style: italic;
+}
+
+@media only screen and (width < 700px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  #projects .project-tile {
+    height: 600px;
+    width: 100;
+  }
 }
