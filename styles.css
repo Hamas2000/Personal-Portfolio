@@ -7,194 +7,194 @@
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: 'poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
   scroll-behavior: smooth;
- }
+}
 
 body {
-	background-color: var(--neutral);
-	padding-top: 50px;
- }
+  background-color: var(--neutral);
+  padding-top: 50px;
+}
 
 #navbar {
-	display: flex;
-	justify-content: flex-end;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	background-color: var(--neutral);
-	padding: 13px 30px ;
-	font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--neutral);
+  padding: 13px 30px ;
+  font-size: 20px;
 }
 
 .nav-links {
-	display: flex;
-	list-style: none;
-	font-family: serif;
+  display: flex;
+  list-style: none;
+  font-family: serif;
 }
 
 .nav-links a {
-	text-decoration: none;
-	color: var(--base-100);
-	padding: 0 10px;
+  text-decoration: none;
+  color: var(--base-100);
+  padding: 0 10px;
 }
 
 .nav-links a:hover {
-	text-decoration: underline;
-	color: var(--nature-green);
+  text-decoration: underline;
+  color: var(--nature-green);
   cursor: pointer;
 }
 
 .nav-links a:active {
-	color: var(--neutral-center);
+  color: var(--neutral-center);
 }
 
 section {
-	min-height: 100vh;
-	padding: 70px 0;
+  min-height: 100vh;
+  padding: 70px 0;
 }
 
 #welcome-section {
-	background-color: var(--neutral);
-	color: var(--base-100);
-	padding-left: 40px;
-	padding-top: 100px;
-	background-image: url(https://static.vecteezy.com/system/resources/thumbnails/036/366/612/small_2x/ai-generated-dreamy-natural-background-beautiful-bokeh-copy-space-photo.jpg);
+  background-color: var(--neutral);
+  color: var(--base-100);
+  padding-left: 40px;
+  padding-top: 100px;
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/036/366/612/small_2x/ai-generated-dreamy-natural-background-beautiful-bokeh-copy-space-photo.jpg);
   background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+  background-position: center;
+  background-size: cover;
 }
 
 .note {
-	color: var(--neutral);
-	font-weight: bold;
-	font-size: 19px;
-	padding-top: 7px;
+  color: var(--neutral);
+  font-weight: bold;
+  font-size: 19px;
+  padding-top: 7px;
 }
 
 .info {
-	font-size: 18px;
-	padding-top: 15px;
-	padding-right: 10px;
-	width: 45%;
-	padding-bottom: 20px;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-right: 10px;
+  width: 45%;
+  padding-bottom: 20px;
 }
 
 button {
-	border-radius: 5px;
-	font-weight: bold;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 .lets-talk {
   color: var(--neutral-center);
   background-color: var(--neutral);
-	border-color: var(--neutral-center);
-	padding: 4px 20px;
+  border-color: var(--neutral-center);
+  padding: 4px 20px;
 }
 
 .lets-talk:hover {
-	opacity: 0.5;
-	background-color: var(--neutral-center);
-	color: var(--neutral);
+  opacity: 0.5;
+  background-color: var(--neutral-center);
+  color: var(--neutral);
 }
 
 .hire-me {
-	color: var(--neutral);
-	background-color: var(--neutral-center);
-	border: none;
-	padding: 5px 25px;
-	margin: 5px;
+  color: var(--neutral);
+  background-color: var(--neutral-center);
+  border: none;
+  padding: 5px 25px;
+  margin: 5px;
 }
 
 .hire-me:hover {
-	opacity: 0.5;
-	color: var(--neutral-center);
-	background-color: var(--neutral);
-	border: 1px solid var(--neutral-center);
+  opacity: 0.5;
+  color: var(--neutral-center);
+  background-color: var(--neutral);
+  border: 1px solid var(--neutral-center);
 }
 
 #about {
-	color: var(--base-100);
-	overflow: hidden;
+  color: var(--base-100);
+  overflow: hidden;
 }
 
 .container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 90%;
-	margin: 65px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 65px auto;
 }
 
 .her-content {
-	flex: 1;
-	width: 600px;
-	margin: 0 25px;
+  flex: 1;
+  width: 600px;
+  margin: 0 25px;
 }
 
 .her-image {
-	flex: 1;
+  flex: 1;
   width: 500px;
-	margin: auto;
+  margin: auto;
 }
 
 img {
-	width: 100%;
-	height: auto;
-	border-radius: 10px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 .her-content h2 {
-	color: var(--neutral-center);
-	font-size: 28px;
-	padding-bottom: 10px;
+  color: var(--neutral-center);
+  font-size: 28px;
+  padding-bottom: 10px;
 }
 
 .her-content p {
-	font-size: 24px;
-	line-height: 1.5;
-	margin-bottom: 40px;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 40px;
 }
 
 .her-content button {
   padding: 4px 20px;
-	color: var(--base-100);
-	background-color: var(--nature-green);
+  color: var(--base-100);
+  background-color: var(--nature-green);
 }
 
 .her-content button:hover {
-	box-shadow: 5px 5px 10px hsl(0, 69%, 46%);
-	opacity: 0.7;
+  box-shadow: 5px 5px 10px hsl(0, 69%, 46%);
+  opacity: 0.7;
 }
 
 #projects {
-	background-color: var(--neutral-center);
-	color: var(--neutral);
+  background-color: var(--neutral-center);
+  color: var(--neutral);
 }
 
 #projects h1 {
-	padding-bottom: 20px;
-	text-align: center;
-	font-size: 34px;
-	border-bottom: 5px solid var(--neutral);
-	margin: auto;
-	width: fit-content;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 34px;
+  border-bottom: 5px solid var(--neutral);
+  margin: auto;
+  width: fit-content;
 }
 
 #projects .project {
-	width: 100%;
-	height: 525px;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	gap: 30px;
-	padding: 20px;
-	place-items: center;
-	max-width: 1200px;
-	margin: auto;
-	border-radius: 5px;
+  width: 100%;
+  height: 525px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 20px;
+  place-items: center;
+  max-width: 1200px;
+  margin: auto;
+  border-radius: 5px;
 }
 
 .project .project-tile {
@@ -268,7 +268,7 @@ footer {
 @media only screen and (width < 700px) {
   h1 {
     font-size: 50px;
-  }
+}
 
   #projects .project-tile {
     height: 600px;
