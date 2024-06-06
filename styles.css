@@ -265,13 +265,82 @@ footer {
   font-style: italic;
 }
 
-@media only screen and (width < 700px) {
-  h1 {
-    font-size: 50px;
+@media screen and (max-width: 600px) {
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
   }
 
-  #projects .project-tile {
-    height: 600px;
-    width: 100;
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .nav-links a {
+    padding: 10px 0;
+    width: 100%;
+    text-align: left;
+  }
+
+  section {
+    padding: 150px 0 70px; 
+  }
+
+  #welcome-section {
+    padding: 150px 20px 0 20px;
+    background-position: top;
+  }
+
+  .info {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .container {
+    flex-direction: column;
+    margin: 30px auto;
+  }
+
+  .her-content {
+    width: 100%;
+  }
+
+  .her-image {
+    width: 100%;
+  }
+
+  .her-content h2 {
+    font-size: 24px;
+  }
+
+  .her-content p {
+    font-size: 20px;
+  }
+
+  #projects h1 {
+    font-size: 28px;
+  }
+
+  .project .project-tile {
+    width: 100%;
+    height: auto;
+  }
+
+  #contact h1 {
+    font-size: 30px;
+  }
+
+  #contact .question {
+    font-size: 20px;
+  }
+
+  #contact .social-media {
+    font-size: 18px;
+  }
+
+  footer {
+    font-size: 20px;
   }
 }

@@ -9,6 +9,7 @@ This personal portfolio was created to serve as a comprehensive and user-friendl
 - Take a glimpse of the page below: 
 
 ![landing page](https://github.com/Hamas2000/Personal-Portfolio/assets/168201374/1c37f664-ec06-4bae-bca0-6408fb213722)
+[Live Demo](https://hamas2000.github.io/Personal-Portfolio)
 
 ## Technologies Used 🛠️
 
