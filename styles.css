@@ -285,7 +285,7 @@ footer {
   }
 
   section {
-    padding: 150px 0 70px; /* Add extra padding to avoid being hidden by the navbar */
+    padding: 150px 0 70px; 
   }
 
   #welcome-section {
