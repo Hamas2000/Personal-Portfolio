@@ -83,39 +83,6 @@ section {
   padding-bottom: 20px;
 }
 
-button {
-  border-radius: 5px;
-  font-weight: bold;
-}
-
-.lets-talk {
-  color: var(--neutral-center);
-  background-color: var(--neutral);
-  border-color: var(--neutral-center);
-  padding: 4px 20px;
-}
-
-.lets-talk:hover {
-  opacity: 0.5;
-  background-color: var(--neutral-center);
-  color: var(--neutral);
-}
-
-.hire-me {
-  color: var(--neutral);
-  background-color: var(--neutral-center);
-  border: none;
-  padding: 5px 25px;
-  margin: 5px;
-}
-
-.hire-me:hover {
-  opacity: 0.5;
-  color: var(--neutral-center);
-  background-color: var(--neutral);
-  border: 1px solid var(--neutral-center);
-}
-
 #about {
   color: var(--base-100);
   overflow: hidden;
@@ -157,17 +124,6 @@ img {
   font-size: 24px;
   line-height: 1.5;
   margin-bottom: 40px;
-}
-
-.her-content button {
-  padding: 4px 20px;
-  color: var(--base-100);
-  background-color: var(--nature-green);
-}
-
-.her-content button:hover {
-  box-shadow: 5px 5px 10px hsl(0, 69%, 46%);
-  opacity: 0.7;
 }
 
 #projects {
