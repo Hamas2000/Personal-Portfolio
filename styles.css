@@ -1,0 +1,302 @@
+:root {
+  --neutral: #081b29;
+  --base-100: #fffffe;
+  --neutral-foucs: #121629;
+  --neutral-center: rgb(92, 169, 241);
+  --nature-green: rgb(131, 192, 11);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--neutral);
+  padding-top: 50px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--neutral);
+  padding: 13px 30px;
+  font-size: 20px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  font-family: serif;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--base-100);
+  padding: 0 10px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  color: var(--nature-green);
+  cursor: pointer;
+}
+
+.nav-links a:active {
+  color: var(--neutral-center);
+}
+
+section {
+  min-height: 100vh;
+  padding: 70px 0;
+}
+
+#welcome-section {
+  background-color: var(--neutral);
+  color: var(--base-100);
+  padding-left: 40px;
+  padding-top: 100px;
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/036/366/612/small_2x/ai-generated-dreamy-natural-background-beautiful-bokeh-copy-space-photo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.note {
+  color: var(--neutral);
+  font-weight: bold;
+  font-size: 19px;
+  padding-top: 7px;
+}
+
+.info {
+  font-size: 18px;
+  padding-top: 15px;
+  padding-right: 10px;
+  width: 45%;
+  padding-bottom: 20px;
+}
+
+#about {
+  color: var(--base-100);
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 65px auto;
+}
+
+.her-content {
+  flex: 1;
+  width: 600px;
+  margin: 0 25px;
+}
+
+.her-image {
+  flex: 1;
+  width: 500px;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.her-content h2 {
+  color: var(--neutral-center);
+  font-size: 28px;
+  padding-bottom: 10px;
+}
+
+.her-content p {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+#projects {
+  background-color: var(--neutral-center);
+  color: var(--neutral);
+}
+
+#projects h1 {
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 34px;
+  border-bottom: 5px solid var(--neutral);
+  margin: auto;
+  width: fit-content;
+}
+
+#projects .project {
+  width: 100%;
+  height: 525px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 20px;
+  place-items: center;
+  max-width: 1200px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.project .project-tile {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--base-100);
+  background-color: var(--neutral);
+  border: 5px;
+  box-shadow: 8px 8px 10px rgb(57, 25, 25);
+}
+
+#project .project-tile img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#contact {
+  background-color: var(--neutral);
+  color: var(--base-100);
+  text-align: center;
+}
+
+#contact h1 {
+  font-size: 50px;
+  margin-top: 200px;
+}
+
+#contact .question {
+  color: var(--neutral-center);
+  font-size: 24px;
+  font-style: italic;
+}
+
+#contact .social-medias {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#contact .social-media {
+  text-decoration: none;
+  color: var(--base-100);
+  transition: transform 0.2s ease-in;
+  display: flex;
+  align-items: center;
+  margin: 30px;
+  font-size: 22px;
+}
+
+#contact .social-media:hover {
+  transform: translateY(10px);
+}
+
+footer {
+  border-top: 3px solid var(--neutral-center);
+  color: var(--base-100);
+  font-size: 25px;
+  padding: 30px;
+  text-align: center;
+  font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .nav-links a {
+    padding: 10px 0;
+    width: 100%;
+    text-align: left;
+  }
+
+  section {
+    padding: 150px 0 70px;
+  }
+
+  #welcome-section {
+    padding: 150px 20px 0 20px;
+    background-position: top;
+  }
+
+  .info {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .container {
+    flex-direction: column;
+    margin: 30px auto;
+  }
+
+  .her-content {
+    width: 100%;
+  }
+
+  .her-image {
+    width: 100%;
+  }
+
+  .her-content h2 {
+    font-size: 24px;
+  }
+
+  .her-content p {
+    font-size: 20px;
+  }
+
+  #projects h1 {
+    font-size: 28px;
+  }
+
+  .project .project-tile {
+    width: 100%;
+    height: auto;
+  }
+
+  #contact h1 {
+    font-size: 30px;
+  }
+
+  #contact .question {
+    font-size: 20px;
+  }
+
+  #contact .social-media {
+    font-size: 18px;
+  }
+
+  footer {
+    font-size: 20px;
+  }
+}
